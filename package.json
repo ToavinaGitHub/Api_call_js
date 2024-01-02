@@ -4,7 +4,8 @@
   "dependencies": {
     "request": "^2.88.2"
   },
-  "scripts":{
-    "test":"api_call"
+  "scripts": {
+    "start": "node back/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
