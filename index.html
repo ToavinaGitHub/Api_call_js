@@ -29,7 +29,7 @@
     console.log(func().then((res)=>{console.log(res)}))
 
 
-    //Use fetch
+    //Use fetch (Get from API)
    /* window.fetch('http://localhost:8080/sources').then((res)=>{
         return res.json();
     }).then((data)=>{
@@ -37,6 +37,29 @@
     }).catch((err)=>{
         console.log(err);
     })*/
+
+    //Post to API
+
+    /*
+    fetch('http://localhost:8080/sources',{
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+            name: 'test',
+            url: 'test'
+        })
+    }).then((res)=>{
+        return res.json();
+    }).then((data)=>{
+        console.log(data);
+    }).catch((err)=>{
+        console.log(err);
+    }
+    )
+    
+    */
 
 
   
