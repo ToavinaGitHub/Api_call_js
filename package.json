@@ -1,8 +1,5 @@
 {
   "name": "Api_call_js",
   "version":"1.0",
-  "dependencies": {
-    "express": "^4.17.1",
-    "request": "^2.88.2"
-  }
+
 }
