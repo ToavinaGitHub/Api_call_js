@@ -8,25 +8,12 @@ I use Dockerfile for my node server
 <div align="center">
     <h2 color="blue">There is some useful Docker commands:</h2>  
     <ul>
-      <li>-Get image from DockerHub : 
-            docker pull [image-name]
-      </li>
-      <li>-Check all image
-            docker images
-      </li>
-      <li>-Get all containers
-          docker ps
-      </li>
-      <li>-Build an image from an app : 
-            docker build -t [app-name] .
-      </li>
-      <li>-Run image 
-          docker run -d -p [port (binding-port:real-port) ] [image-name]:[image-tag]
-      </li>
+      <li>-Get image from DockerHub : <strong>docker pull [image-name] </strong> </li>
+      <li>-Get all image :  <strong>docker images</strong> </li>
+      <li>-Get all containers :  <strong>docker ps</strong>  </li>
+      <li>-Build an image from an app :  <strong>docker build -t [app-name] . </strong> </li>
+      <li>-Run image : <strong>docker run -d -p [port (binding-port:real-port) ] [image-name]:[image-tag] </strong> </li>
     </ul>
 </div>
 
-
-
---Run image 
   
